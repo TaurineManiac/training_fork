@@ -147,6 +147,13 @@ public:
 int main() {
     int rows1, cols1, rows2, cols2;
 
+    cout<< "Текст был написан игнатом в виде fork:)" << endl;
+    cout << " /\\_/\\  \n"
+              << "( o.o ) \n"
+              << " > ^ <  \n"
+              << " /   \\  \n"
+              << "(_____) \n";
+
     cout << "Введите размеры первой матрицы (строки, столбцы): ";
     while (!(cin >> rows1 >> cols1) || rows1 <= 0 || cols1 <= 0) {
         cin.clear();
